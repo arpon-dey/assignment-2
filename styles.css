@@ -125,3 +125,26 @@
   right: 500px;
   width: 300px;
 }
+
+.game-type-section {
+  margin-top: 300px;
+  /* padding: 0 180px; */
+}
+.single-game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.single-game p {
+  font-weight: 700;
+}
+
+.game-type-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-self: center;
+  align-self: center;
+  gap: 10px;
+  /* justif-content: center; */
+}
