@@ -1,0 +1,31 @@
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Poppins&display=swap");
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 180px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.social {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: #d4d4d4;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.nav-end {
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+}
