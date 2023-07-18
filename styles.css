@@ -29,3 +29,40 @@
   gap: 10px;
   font-weight: 600;
 }
+
+/* Banner Section  */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-image: url(images/Group14.png);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+.banner-text {
+  padding: 50px;
+}
+.banner-text > p {
+  font-size: 40px;
+  font-weight: 700;
+}
+.banner-text > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.banner-text span {
+  font-size: 70px;
+  font-weight: 900;
+  background-image: linear-gradient(to right, #f947d3, #23b3f5);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.banner-img img {
+  width: 80%;
+  padding-left: 60px;
+}
