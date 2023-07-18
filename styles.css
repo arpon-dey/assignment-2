@@ -97,3 +97,31 @@
 .video-container img {
   width: 250px;
 }
+/* Play online section  */
+
+.play-online-contaner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  margin-top: 70px;
+}
+.play-online-text-contaner {
+  text-align: end;
+  padding: 180px 50px 0 0;
+}
+.img-container {
+  position: relative;
+}
+.img-1,
+.img-2 {
+  position: absolute;
+}
+.img-1 {
+  width: 500px;
+}
+.img-2 {
+  z-index: 1;
+  top: 260px;
+  right: 500px;
+  width: 300px;
+}
