@@ -109,6 +109,41 @@
 .video-container img {
   width: 250px;
 }
+
+.image-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hide the icon initially */
+.icon-container {
+  background: #0000009a;
+  padding: 86px 105px;
+  margin: 0 0 90px 0;
+  border-radius: 20px;
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.icon {
+  margin: 0px 0 80px 0;
+}
+
+/* Show the icon when hovering over the image */
+.image-wrapper:hover .icon-container {
+  opacity: 1;
+}
+
 /* Play online section  */
 
 .play-online-container {
