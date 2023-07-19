@@ -230,7 +230,7 @@
   margin: 10px 0;
 }
 
-.icon-container {
+.icons-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -347,7 +347,7 @@
     font-size: 13px;
     color: white;
   }
-  .icon-container {
+  .icons-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
@@ -358,5 +358,111 @@
     margin: 0 90px;
     text-align: center;
     color: rgb(188, 188, 188);
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  /* Navbar section*/
+  .nav {
+    padding: 0 20px;
+  }
+  .logo {
+    gap: 5px;
+  }
+  .social {
+    padding: 0 5px;
+  }
+
+  /* Banner Section */
+  .banner-text > p {
+    font-size: 28px;
+  }
+  .banner-text span {
+    font-size: 50px;
+  }
+  .banner-text div {
+    gap: 3px;
+  }
+  .banner-img img {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* Funny Videos section */
+  .Videos-section-container {
+    margin: 0 20px;
+  }
+  .videos-section-description h1 {
+    font-size: 22px;
+  }
+  .video-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 0;
+  }
+
+  /* Play online section */
+  .play-online-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .play-online-text-contaner {
+    text-align: center;
+    padding: 0;
+  }
+  .img-1 {
+    width: 50%;
+    margin-left: 260px;
+  }
+  .img-2 {
+    top: 200px;
+    right: 380px;
+    width: 200px;
+  }
+
+  /* Game type section */
+  .game-type-section {
+    margin-top: 480px;
+    margin-bottom: 40px;
+    padding: 0 10px;
+  }
+  .single-game {
+    gap: 5px;
+  }
+  .single-game p {
+    font-size: 12px;
+  }
+  .game-type-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 0 0;
+  }
+  .single-game:hover {
+    border: 1px solid rgb(180, 22, 22);
+    border-radius: 50px;
+  }
+
+  /* Footer section */
+  .footer {
+    padding: 20px 0;
+  }
+  .footer-title p {
+    font-size: 20px;
+  }
+  .footer-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    font-size: 12px;
+    padding: 0 10px;
+  }
+
+  .footer-privacy-items {
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  #footer-c {
+    margin: 0;
+    font-size: 12px;
   }
 }
